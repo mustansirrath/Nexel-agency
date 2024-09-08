@@ -1,0 +1,264 @@
+@media only screen and (max-width: 952px) {
+  .brief-services {
+    justify-content: center;
+  }
+
+  .services {
+    padding: 4rem 1rem;
+  }
+  .why-container {
+    justify-content: center;
+  }
+
+  .why-heading h2 {
+    margin-bottom: 2rem;
+  }
+
+  .whybox1 {
+    margin: 30px;
+  }
+
+  .left-cta h3 {
+    font-size: 25px;
+  }
+
+  .left-side-info {
+    padding: 25px;
+  }
+
+  .nexel-main {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 749px) {
+  .left-part-footer {
+    width: 71%;
+    margin-bottom: 3rem;
+  }
+
+  .right-cta .cta-image {
+    width: 16rem;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .information-services h2 {
+    text-align: center;
+  }
+
+  .information-services {
+    padding: 10px;
+  }
+
+  .services-boxes {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 341px) {
+  .service-box h3 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .left-contact-form {
+    background-color: #26ff001b;
+    padding: 1rem;
+    margin: 35px;
+  }
+
+  .about-main-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .numbers {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 417px) {
+  .number p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  .information-box {
+    width: 29rem;
+  }
+}
+
+@media only screen and (max-width: 484px) {
+  .information-box {
+    width: 22rem;
+  }
+}
+
+@media only screen and (max-width: 368px) {
+  .information-box {
+    width: 19rem;
+  }
+}
+
+@media only screen and (max-width: 307px) {
+  .information-box {
+    width: 15rem;
+  }
+  .information-box p {
+    font-size: 16px;
+  }
+
+  .heading-section h2 {
+    font-size: 1.7rem;
+  }
+
+  .about-main-information h2 {
+    font-size: 2.3rem;
+  }
+
+  .email-footer a {
+    text-decoration: none;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 582px) {
+  .cta-info {
+    flex-direction: column;
+  }
+
+  .left-cta {
+    margin-bottom: 30px;
+  }
+
+  .why-heading,
+  .helping-heading {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .icon-1 {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .ul-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: -350px;
+    width: 250px;
+    height: 200vh;
+    transition: 0.6s all;
+    background: linear-gradient(90deg, #369924, #0c3d16);
+    background-size: 300% 100%;
+    color: transparent;
+  }
+
+  .active {
+    right: 0;
+  }
+
+  .ul-links li {
+    padding: 20px;
+  }
+
+  #menu-open,
+  #menu-close {
+    display: block;
+  }
+
+  #menu-open{
+    font-size: 22px;
+  }
+
+  #menu-close {
+    padding: 15px;
+    font-size: 23px;
+    position: relative;
+    left: 80%;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .left-cta h3 {
+    font-size: 24px;
+}
+.logo .logo-image {
+  width: 6rem;
+}
+.right-cta .cta-image {
+  width: 15rem;
+}
+}
+
+@media only screen and (max-width: 376px) {
+  .left-side-info h2 {
+    color: white;
+    font-size: 2.3rem;
+    font-family: boldfont;
+}
+
+.right-side-image .nexel-main {
+  width: 23rem;
+}
+}
+
+@media only screen and (max-width: 353px) {
+  .left-cta {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.left-cta h3 {
+  font-size: 22px;
+}
+.secondRow p {
+  font-family: regular;
+  word-wrap: normal;
+  font-size: 14px;
+}
+
+.whybox1 {
+  margin: 24px;
+}
+
+.s-first p {
+  color: white;
+  font-family: regular;
+  margin: 10px;
+  background-color: #023e8a;
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 30px;
+  cursor: default;
+  word-wrap: normal;
+}
+
+.brief1 {
+  display: inline-block;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 18rem;
+  margin: 10px;
+  padding: 20px;
+  border-bottom-right-radius: 15px;
+  cursor: default;
+  transition: 0.5s;
+}
+}
